@@ -1,0 +1,191 @@
+html {
+  font-size: 13px !important; /* default is ~16px */
+  font-family: 'Cyberpunk', sans-serif !important;
+}
+
+body {
+  background-color: #dad9d8ee !important;
+  font-family: 'Cyberpunk', sans-serif !important;
+}
+
+.prose p {
+  font-size: 1.1rem !important;
+  font-family: 'Cyberpunk', sans-serif !important;
+  color: black !important;
+  text-align: justify;
+}
+
+/* Make the entire header/navbar area black with white text */
+header,
+header.navbar,
+.navbar,
+.navbar-container,
+.nav-wrapper,
+.bg-background,
+.site-header {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Make all links and nav items white */
+header a,
+.navbar a,
+.navbar-menu a,
+.nav-item a {
+  color: #ffffff !important;
+}
+
+/* Hover accent (optional) */
+header a:hover,
+.navbar a:hover,
+.navbar-menu a:hover {
+  color:  #E8D5C6 !important; /* pink hover accent */
+}
+
+/* Fix icons (e.g., mobile menu) */
+.navbar svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+/* Right-align main navigation tabs in Hugo Blox header */
+.navbar-nav {
+  margin-left: auto;  /* Pushes nav items to the right */
+  margin-right: 0;
+}
+
+/* Optional: ensure alignment in mobile/compact views */
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.blox-block > div {
+  max-width: 65ch !important;
+  margin: 0 auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: justify;
+}
+
+.profile-picture,
+.avatar,
+.blox-profile img {
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important;
+}
+
+/* Force font family globally for prose content */
+.prose {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Force wider prose width */
+.prose {
+  max-width: 90ch !important;
+}
+/* Force justification in the Awards block */
+.awards, 
+.award, 
+.award-item, 
+.featurette, 
+.block-awards {
+  text-align: justify !important;
+}
+
+/* Ensure paragraphs inside awards are justified too */
+.awards p, 
+.award p, 
+.award-item p, 
+.block-awards p {
+  text-align: justify !important;
+}
+/* --- Default Button Style --- */
+button,
+.btn,
+a.btn,
+.button,
+.prose a.button {
+  display: inline-block;
+  background-color: #f5f0e6;        /* beige inside */
+  color: #000000;                   /* black text */
+  border: 2px solid #000000;        /* black edges */
+  border-radius: 9999px;            /* fully rounded */
+  padding: 0.6em 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+/* --- Hover effect --- */
+button:hover,
+.btn:hover,
+a.btn:hover,
+.button:hover,
+.prose a.button:hover {
+  background-color: #000000;        /* invert colors on hover */
+  color: #f5f0e6;
+  border-color: #000000;
+  transform: translateY(-1px);      /* subtle lift */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* --- Optional: focus & active states --- */
+button:active,
+.btn:active,
+a.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* -----------------------------------------------------------
+   Fix for "Awards" list to look like Full-Width White Cards
+   ----------------------------------------------------------- */
+
+/* 1. Target the row that holds the Award item */
+.row.experience {
+  /* Turn the row into a White Card */
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  padding: 20px !important;
+  margin-bottom: 20px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+  
+  /* Reset the grid behavior so it can be full width */
+  display: flex !important;
+  flex-direction: column !important; 
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* 2. Hide the "Timeline" dots and lines on the left */
+.row.experience .col-auto {
+  display: none !important;
+}
+
+/* 3. Force the content text to fill the card */
+.row.experience .col {
+  padding: 0 !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+/* 4. Fix Title Spacing inside the card */
+.row.experience h4, 
+.row.experience .h4 {
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* 5. (Critical) Force the About Section container to be wider */
+/* This ensures the cards stretch across the page instead of being a narrow column */
+section#about .col-12.col-lg-8 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+.powered-by {
+  display: none !important;
+}

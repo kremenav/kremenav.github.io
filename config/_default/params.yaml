@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'Personal website of Kremena Valkanova.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -29,18 +29,18 @@ marketing:
 # Site header
 header:
   navbar:
-    enable: true
+    enable: false
     block: 'navbar'
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Your Name'
+      text: 'Kremena Valkanova'
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© 2026 Kremena Valkanova'
     license:
       enable: true
       allow_derivatives: false
@@ -58,3 +58,7 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  
+# Custom CSS
+customCSS:
+  - css/custom.css
