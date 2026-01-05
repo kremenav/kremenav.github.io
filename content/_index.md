@@ -1,6 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: 'Kremena Valkanova'
+cms_exclude: true
 date: 2022-10-24
 type: landing
 
