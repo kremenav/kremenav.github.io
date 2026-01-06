@@ -16,6 +16,13 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+ignoreFiles:
+  - "^content/.*example.*"
+  - "\\.ipynb$"
+  - "\\.ipynb_checkpoints$"
+  - "\\.Rmd$"
+  - "\\.Rmarkdown$"
+  - "_cache$"
 
 ############################
 ## ADVANCED
@@ -30,7 +37,7 @@ pagination:
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+
 disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]

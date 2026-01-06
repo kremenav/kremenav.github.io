@@ -4,6 +4,8 @@ title: 'Kremena Valkanova'
 cms_exclude: true
 date: 2022-10-24
 type: landing
+cms_exclude: true
+draft: false
 
 design:
   # Default section spacing
