@@ -7,6 +7,10 @@
 title: Kremena Valkanova
 # Website URL
 baseURL: "https://kremenav.github.io/"
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-core
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
 
 ############################
 ## LANGUAGE

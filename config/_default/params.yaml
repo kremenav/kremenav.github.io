@@ -59,6 +59,12 @@ features:
   privacy_pack:
     enable: false
   
+hugoblox:
+  build:
+    writeStats: false
+  demo:
+    enable: false 
+    
 # Custom CSS
 customCSS:
   - css/custom.css
