@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: system
-  color: indigo
+  theme: light
+  mode: light
 
 # SEO
 marketing:
@@ -64,7 +64,7 @@ hugoblox:
     writeStats: false
   demo:
     enable: false 
-    
+
 # Custom CSS
 customCSS:
   - css/custom.css
