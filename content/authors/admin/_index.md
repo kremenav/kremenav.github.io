@@ -86,7 +86,7 @@ Resume
 </div>
 
 <div class="mb-6 p-6 bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col w-full"><h4 class="text-xl font-bold text-gray-900 mt-0 mb-1 leading-none" style="margin-top: 0 !important;">Voting with Random Proposers: Two Rounds May Suffice</h4>
-<div class="text-sm text-gray-500 mb-3 italic">with Hans Gersbach, October 2024</span></div>
+<div class="text-sm text-gray-500 mb-3 italic">with Hans Gersbach, October 2024, R&R in Games and Economic Behavior</span></div>
 <p class="text-gray-700 mb-4 text-base leading-relaxed">We study a randomized agenda-setting procedure that curbs manipulation and quickly selects the Condorcet winner, with applications to committees, legislatures, and decentralized governance.</p>
 <div class="flex flex-wrap gap-3">
 <a href="/uploads/GersbachValkanova2025.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
