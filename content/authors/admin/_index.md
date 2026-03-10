@@ -224,6 +224,8 @@ abstract = {This paper studies fictitious play in networks of noncooperative two
 </div>
 </div>
 
+<script data-goatcounter="https://kremenav.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
 
   <script>
