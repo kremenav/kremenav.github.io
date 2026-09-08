@@ -51,6 +51,31 @@ Resume
 
 <h4 class="text-2xl font-bold text-center mb-8 mt-12 text-gray-900">Working Papers</h4>
 
+<div class="mb-6 p-6 bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col w-full"><h4 class="text-xl font-bold text-gray-900 mt-0 mb-1 leading-none" style="margin-top: 0 !important;">Optimal Dynamic Majority-Quorum Rules: Theory and Evidence</h4>
+<div class="text-sm text-gray-500 mb-3 italic">with Bhargav Nagaraja Bhatt and Jonas Gehrlein, September 2026</span></div>
+<p class="text-gray-700 mb-4 text-base leading-relaxed">The paper derives an optimal stopping rule for real-time vote aggregation: it determines when to stop collecting votes and make a majority decision before a deadline, balancing accuracy against delay. It also provides a tractable approximation and evaluates the rule on Polkadot governance data.</p>
+<div class="flex flex-wrap gap-3">
+<a href="/uploads/BhattGehrleinValkanova2026MQR.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+</a>
+<a href="#" 
+   onclick="copyBibtex(this); return false;" 
+   title="Copy BibTeX"
+   class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-green-600 transition-transform transform hover:scale-110 shadow-sm no-underline"
+   data-clipboard-text="@article{BhattGehrleinValkanova2026,
+  title={Optimal Dynamic Majority-Quorum Rules: Theory and Evidence},
+  author={Bhatt, Bhargav Nagaraja and Gehrlein, Jonas and Valkanova, Kremena},
+  year={2026},
+  type = {Working Paper}
+}">
+   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+     <path d="M7.17 6A4.17 4.17 0 003 10.17V14a4 4 0 004 4h1a1 1 0 001-1v-4a1 1 0 00-1-1H7a1 1 0 01-1-1v-.83A2.17 2.17 0 018.17 8H9a1 1 0 001-1V7a1 1 0 00-1-1H7.17zM17.17 6A4.17 4.17 0 0013 10.17V14a4 4 0 004 4h1a1 1 0 001-1v-4a1 1 0 00-1-1h-1a1 1 0 01-1-1v-.83A2.17 2.17 0 0118.17 8H19a1 1 0 001-1V7a1 1 0 00-1-1h-1.83z"/>
+   </svg>
+</a>
+</div>
+</div>
+
+
 <div class="mb-6 p-6 bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col w-full"><h4 class="text-xl font-bold text-gray-900 mt-0 mb-1 leading-none" style="margin-top: 0 !important;">Markov Stochastic Choice</h4>
 <div class="text-sm text-gray-500 mb-3 italic">September 2024 (First version: November 2020)</span></div>
 <p class="text-gray-700 mb-4 text-base leading-relaxed">We propose a Markovian model of sequential comparison to study how item arrangement affects choice, identifying when rearrangements are irrelevant and when observed choices reveal underlying consideration sets and decision processes.</p>
@@ -86,10 +111,10 @@ Resume
 </div>
 
 <div class="mb-6 p-6 bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col w-full"><h4 class="text-xl font-bold text-gray-900 mt-0 mb-1 leading-none" style="margin-top: 0 !important;">Voting with Random Proposers: Two Rounds May Suffice</h4>
-<div class="text-sm text-gray-500 mb-3 italic">with Hans Gersbach, October 2024, R&R in Games and Economic Behavior</span></div>
+<div class="text-sm text-gray-500 mb-3 italic">with Hans Gersbach, First Version: October 2024, This Version: August 2026, R&R in Games and Economic Behavior</span></div>
 <p class="text-gray-700 mb-4 text-base leading-relaxed">We study a randomized agenda-setting procedure that curbs manipulation and quickly selects the Condorcet winner, with applications to committees, legislatures, and decentralized governance.</p>
 <div class="flex flex-wrap gap-3">
-<a href="/uploads/GersbachValkanova2025.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="/uploads/GersbachValkanova2026.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
 </a>
 <a href="https://arxiv.org/abs/2410.20476" target="_blank" title="View in ArXiv" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-700 transition-transform transform hover:scale-110 shadow-sm no-underline">
@@ -99,7 +124,7 @@ Resume
    onclick="copyBibtex(this); return false;" 
    title="Copy BibTeX"
    class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-green-600 transition-transform transform hover:scale-110 shadow-sm no-underline"
-   data-clipboard-text="@article{gersbach2024,
+   data-clipboard-text="@article{GersbachValkanova2024VRP,
   title={Voting with Random Proposers: Two Rounds May Suffice},
   author={Gersbach, Hans and Valkanova, Kremena},
   year={2024},
