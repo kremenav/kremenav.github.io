@@ -29,7 +29,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=YC7TSD4AAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0001-6955-4712
 
 ---
 I am a **microeconomic theorist** studying how people, algorithms, and societies make decisions, and how the choice environment shapes outcomes. My research spans stochastic choice, bounded rationality, social choice, and learning in games. I study what **stochastic decisions** reveal about preferences, cognition, and attention, and how to **design institutions** that promote fair and reliable collective outcomes. 
@@ -57,6 +57,9 @@ Resume
 <div class="flex flex-wrap gap-3">
 <a href="/uploads/BhattGehrleinValkanova2026MQR.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+</a>
+<a href="https://github.com/kremenav/mqr" target="_blank" title="View Code" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-black transition-transform transform hover:scale-110 shadow-sm no-underline">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
 </a>
 <a href="#" 
    onclick="copyBibtex(this); return false;" 
