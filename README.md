@@ -31,8 +31,3 @@ The site is automatically built and deployed via GitHub Pages when changes are p
 ## Analytics
 
 This site uses GoatCounter for privacy-friendly analytics.
-
-## License
-
-Content © Me.
-Code released under the MIT license unless stated otherwise.
