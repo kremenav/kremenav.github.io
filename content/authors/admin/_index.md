@@ -53,7 +53,7 @@ Resume
 
 <div class="mb-6 p-6 bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col w-full"><h4 class="text-xl font-bold text-gray-900 mt-0 mb-1 leading-none" style="margin-top: 0 !important;">Optimal Dynamic Majority-Quorum Rules: Theory and Evidence</h4>
 <div class="text-sm text-gray-500 mb-3 italic">with Bhargav Nagaraja Bhatt and Jonas Gehrlein, September 2026</span></div>
-<p class="text-gray-700 mb-4 text-base leading-relaxed">The paper derives an optimal stopping rule for real-time vote aggregation: it determines when to stop collecting votes and make a majority decision before a deadline, balancing accuracy against delay. It also provides a tractable approximation and evaluates the rule on Polkadot governance data.</p>
+<p class="text-gray-700 mb-4 text-base leading-relaxed">We derive an optimal stopping rule for real-time vote aggregation: it determines when to stop collecting votes and make a majority decision before a deadline. We also provide a tractable approximation and evaluate the rule on Polkadot governance data.</p>
 <div class="flex flex-wrap gap-3">
 <a href="/uploads/BhattGehrleinValkanova2026MQR.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
