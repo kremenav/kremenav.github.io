@@ -4,14 +4,14 @@ html {
 }
 
 body {
-  background-color: #dad9d8ee !important;
+  background-color: #DBD8D4 !important;
   font-family: 'Cyberpunk', sans-serif !important;
 }
 
 .prose p {
   font-size: 1.1rem !important;
   font-family: 'Cyberpunk', sans-serif !important;
-  color: black !important;
+  color: var(--ink) !important;
   text-align: justify;
 }
 
@@ -188,4 +188,63 @@ section#about .col-12.col-lg-8 {
 
 .powered-by {
   display: none !important;
+}
+/* -----------------------------------------------------------
+   Palette
+   ----------------------------------------------------------- */
+
+:root {
+  --accent: #6E2433;
+  --accent-tint: rgba(110, 36, 51, 0.07);   /* --accent at low alpha - hover wash */
+  --ink: #1F1D1B;   /* body/prose text */
+}
+
+/* "Resume" button: accent text + border on a transparent fill.
+   Hover mirrors the paper-card icons - faint wash, slight lift, deeper shadow. */
+.resume-accent {
+  color: var(--accent) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--accent) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.resume-accent:hover {
+  background-color: var(--accent-tint) !important;
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Paper action icons (PDF / arXiv / code / BibTeX): accent at rest.
+   The theme's `hover:scale-110` / `hover:bg-gray-50` still supply hover feedback. */
+.icon-accent {
+  color: var(--accent) !important;
+}
+
+/* Section headings: "Working Papers" / "Publications" */
+.heading-accent {
+  color: var(--accent) !important;
+}
+
+/* Bold text: Tailwind Typography sets `.prose :where(strong){color:var(--tw-prose-bold)}`
+   to a near-black, so <strong> never inherits the paragraph color. Retarget it. */
+.prose {
+  --tw-prose-bold: var(--ink);
+  --tw-prose-hr: var(--accent);   /* divider under the Resume button */
+}
+
+.prose strong,
+.prose b {
+  color: var(--ink) !important;
+}
+
+/* Social icons under the name: accent on hover.
+   Every icon is stroke/fill "currentColor", so setting color is enough —
+   overriding `fill` would flood the outline-style icons solid. */
+.network-icon a {
+  transition: color 0.2s ease;
+}
+
+.network-icon a:hover {
+  color: var(--accent) !important;
 }

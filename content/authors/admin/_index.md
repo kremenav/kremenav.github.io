@@ -37,7 +37,7 @@ I am a **microeconomic theorist** studying how people, algorithms, and societies
 I am currently a **Research Scientist** at **Parity Technologies**, where I work on voting system design and blockchain economic security. I completed my Ph.D. in Economics at the University of Zurich in 2021, followed by a postdoctoral position on mathematical democracy at ETH Zurich.
 
 <div class="flex justify-center mb-10 mt-4">
-<a href="/uploads/CV_Valkanova.pdf" target="_blank" class="inline-flex items-center px-6 py-2 text-base font-bold text-gray-900 bg-transparent border border-gray-400 rounded-lg hover:bg-gray-100 transition-colors no-underline">
+<a href="/uploads/CV_Valkanova.pdf" target="_blank" class="inline-flex items-center px-6 py-2 text-base font-bold resume-accent rounded-lg no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
 </svg>
@@ -49,22 +49,22 @@ Resume
 
 <h3 class="text-3xl font-bold text-center mb-8 mt-12 text-gray-900">Research</h3>
 
-<h4 class="text-2xl font-bold text-center mb-8 mt-12 text-gray-900">Working Papers</h4>
+<h4 class="text-2xl font-bold text-center mb-8 mt-12 heading-accent">Working Papers</h4>
 
 <div class="mb-6 p-6 bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col w-full"><h4 class="text-xl font-bold text-gray-900 mt-0 mb-1 leading-none" style="margin-top: 0 !important;">Optimal Dynamic Majority-Quorum Rules: Theory and Evidence</h4>
 <div class="text-sm text-gray-500 mb-3 italic">with Bhargav Nagaraja Bhatt and Jonas Gehrlein, September 2026</span></div>
 <p class="text-gray-700 mb-4 text-base leading-relaxed">The paper derives an optimal stopping rule for real-time vote aggregation: it determines when to stop collecting votes and make a majority decision before a deadline, balancing accuracy against delay. It also provides a tractable approximation and evaluates the rule on Polkadot governance data.</p>
 <div class="flex flex-wrap gap-3">
-<a href="/uploads/BhattGehrleinValkanova2026MQR.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="/uploads/BhattGehrleinValkanova2026MQR.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
 </a>
-<a href="https://github.com/kremenav/mqr" target="_blank" title="View Code" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-black transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="https://github.com/kremenav/mqr" target="_blank" title="View Code" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
 </a>
 <a href="#" 
    onclick="copyBibtex(this); return false;" 
    title="Copy BibTeX"
-   class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-green-600 transition-transform transform hover:scale-110 shadow-sm no-underline"
+   class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline"
    data-clipboard-text="@article{BhattGehrleinValkanova2026,
   title={Optimal Dynamic Majority-Quorum Rules: Theory and Evidence},
   author={Bhatt, Bhargav Nagaraja and Gehrlein, Jonas and Valkanova, Kremena},
@@ -83,19 +83,19 @@ Resume
 <div class="text-sm text-gray-500 mb-3 italic">September 2024 (First version: November 2020)</span></div>
 <p class="text-gray-700 mb-4 text-base leading-relaxed">We propose a Markovian model of sequential comparison to study how item arrangement affects choice, identifying when rearrangements are irrelevant and when observed choices reveal underlying consideration sets and decision processes.</p>
 <div class="flex flex-wrap gap-3">
-<a href="/uploads/Valkanova2024-MSC.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="/uploads/Valkanova2024-MSC.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
 </a>
-<a href="https://arxiv.org/abs/2410.22001" target="_blank" title="View in ArXiv" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-700 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="https://arxiv.org/abs/2410.22001" target="_blank" title="View in ArXiv" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
 </a>
-<!-- <a href="#" target="_blank" title="View Slides" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-blue-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<!-- <a href="#" target="_blank" title="View Slides" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" /></svg>
 </a> -->
 <a href="#" 
    onclick="copyBibtex(this); return false;" 
    title="Copy BibTeX"
-   class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-green-600 transition-transform transform hover:scale-110 shadow-sm no-underline"
+   class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline"
    data-clipboard-text="@article{valkanova2024,
   title={Markov Stochastic Choice},
   author={Valkanova, Kremena},
@@ -117,16 +117,16 @@ Resume
 <div class="text-sm text-gray-500 mb-3 italic">with Hans Gersbach, First Version: October 2024, This Version: August 2026, R&R in Games and Economic Behavior</span></div>
 <p class="text-gray-700 mb-4 text-base leading-relaxed">We study a randomized agenda-setting procedure that curbs manipulation and quickly selects the Condorcet winner, with applications to committees, legislatures, and decentralized governance.</p>
 <div class="flex flex-wrap gap-3">
-<a href="/uploads/GersbachValkanova2026.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="/uploads/GersbachValkanova2026.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
 </a>
-<a href="https://arxiv.org/abs/2410.20476" target="_blank" title="View in ArXiv" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-700 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="https://arxiv.org/abs/2410.20476" target="_blank" title="View in ArXiv" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
 </a>
 <a href="#" 
    onclick="copyBibtex(this); return false;" 
    title="Copy BibTeX"
-   class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-green-600 transition-transform transform hover:scale-110 shadow-sm no-underline"
+   class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline"
    data-clipboard-text="@article{GersbachValkanova2024VRP,
   title={Voting with Random Proposers: Two Rounds May Suffice},
   author={Gersbach, Hans and Valkanova, Kremena},
@@ -146,22 +146,22 @@ Resume
 
 
 
-<h4 class="text-2xl font-bold text-center mb-8 text-gray-900">Publications</h4>
+<h4 class="text-2xl font-bold text-center mb-8 heading-accent">Publications</h4>
 
 <div class="mb-6 p-6 bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col w-full"><h4 class="text-xl font-bold text-gray-900 mt-0 mb-1 leading-none" style="margin-top: 0 !important;">Revealed Preference Domains from Random Choice</h4>
 <div class="text-sm text-gray-500 mb-3 italic">2024, Games and Economic Behavior, 147, pp. 288-304.</span></div>
 <p class="text-gray-700 mb-4 text-base leading-relaxed">We define a new property of ordinal random utility models, exclusiveness, and show that many classical and novel preference domains satisfy it, enabling their direct identification from stochastic choice data.</p>
 <div class="flex flex-wrap gap-3">
-<a href="/uploads/rum.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="/uploads/rum.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
 </a>
-<a href="https://www.sciencedirect.com/science/article/pii/S0899825624001039" target="_blank" title="Link" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-700 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="https://www.sciencedirect.com/science/article/pii/S0899825624001039" target="_blank" title="Link" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
 </a>
 <a href="#" 
    onclick="copyBibtex(this); return false;" 
    title="Copy BibTeX"
-   class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-green-600 transition-transform transform hover:scale-110 shadow-sm no-underline"
+   class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline"
    data-clipboard-text="@article{valkanova2024,
   title={Revealed Preference Domains from Random Choice},
   author={Valkanova, Kremena},
@@ -181,19 +181,19 @@ Resume
 <div class="text-sm text-gray-500 mb-3 italic">with Pencho Yordanov (2024), In Findings of the Association for Computational Linguistics: EMNLP 2024, pages 6899–6912, Miami, Florida, USA. Association for Computational Linguistics.</span></div>
 <p class="text-gray-700 mb-4 text-base leading-relaxed">We document a robust attraction effect in GPT-3.5 and GPT-4 hiring decisions, demonstrating that LLMs reproduce a classic human choice bias.</p>
 <div class="flex flex-wrap gap-3">
-<a href="/uploads/YordanovValkanova2025Decoy.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="/uploads/YordanovValkanova2025Decoy.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
 </a>
-<a href="https://arxiv.org/abs/2409.15299" target="_blank" title="View in ArXiv" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-700 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="https://arxiv.org/abs/2409.15299" target="_blank" title="View in ArXiv" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
 </a>
-<a href="https://github.com/ypencho/llm-attraction-effect" target="_blank" title="View Code" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-black transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="https://github.com/ypencho/llm-attraction-effect" target="_blank" title="View Code" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
 </a>
 <a href="#" 
    onclick="copyBibtex(this); return false;" 
    title="Copy BibTeX"
-   class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-green-600 transition-transform transform hover:scale-110 shadow-sm no-underline"
+   class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline"
    data-clipboard-text="@inproceedings{valkanova-yordanov-2024-irrelevant,
     title = "Irrelevant Alternatives Bias Large Language Model Hiring Decisions",
     author = "Valkanova, Kremena  and
@@ -222,16 +222,16 @@ Resume
 <div class="text-sm text-gray-500 mb-3 italic">with Christian Ewerhart (2020). Games and Economic Behavior, 123, pp. 182-206.</span></div>
 <p class="text-gray-700 mb-4 text-base leading-relaxed">We characterize when fictitious play converges in networks of bilateral games, proving fast convergence in zero-sum networks and identifying structural conditions for broader classes.</p>
 <div class="flex flex-wrap gap-3">
-<a href="/uploads/EwerhartValkanova2019.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-600 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="/uploads/EwerhartValkanova2019.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
 </a>
-<a href="https://www.sciencedirect.com/science/article/abs/pii/S0899825620300919" target="_blank" title="Link" class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-red-700 transition-transform transform hover:scale-110 shadow-sm no-underline">
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0899825620300919" target="_blank" title="Link" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
 </a>
 <a href="#" 
    onclick="copyBibtex(this); return false;" 
    title="Copy BibTeX"
-   class="inline-flex items-center justify-center w-10 h-10 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:text-green-600 transition-transform transform hover:scale-110 shadow-sm no-underline"
+   class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline"
    data-clipboard-text="@article{Ewerhart2020,
 title = {Fictitious play in networks},
 journal = {Games and Economic Behavior},
