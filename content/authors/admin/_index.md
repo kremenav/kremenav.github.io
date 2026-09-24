@@ -32,9 +32,9 @@ profiles:
     url: https://orcid.org/0000-0001-6955-4712
 
 ---
-I am a **microeconomic theorist** studying how people, algorithms, and societies make decisions, and how the choice environment shapes outcomes. My research spans stochastic choice, bounded rationality, social choice, and learning in games. I study what **stochastic decisions** reveal about preferences, cognition, and attention, and how to **design institutions** that promote fair and reliable collective outcomes. 
+I am a **microeconomic theorist** studying how people, algorithms, and societies make decisions, and how the choice environment shapes outcomes. My research examines what **decisions reveal** about preferences, attention, and cognition, and how decision-makers learn and adapt, particularly when choices are stochastic or seemingly inconsistent. I also study how to **design institutions** that promote fair, robust, and timely collective decision-making.
 
-I am currently a **Research Scientist** at **Parity Technologies**, where I work on voting system design and blockchain economic security. I completed my Ph.D. in Economics at the University of Zurich in 2021, followed by a postdoctoral position on mathematical democracy at ETH Zurich.
+I am currently a **Research Scientist** at **Parity Technologies**, where I work on voting system design for Polkadot governance and on blockchain economic security. I received my Ph.D. in Economics from the University of Zurich in 2021 under the supervision of [Nick Netzer](https://www.econ.uzh.ch/en/people/faculty/netzer.html) and [Jakub Steiner](https://home.cerge-ei.cz/steiner/), and was then a postdoctoral researcher in mathematical democracy at ETH Zurich with [Hans Gersbach](http://www.gersbach.de/).
 
 <div class="flex justify-center mb-10 mt-4">
 <a href="/uploads/CV_Valkanova.pdf" target="_blank" class="inline-flex items-center px-6 py-2 text-base font-bold resume-accent rounded-lg no-underline">
@@ -254,6 +254,16 @@ abstract = {This paper studies fictitious play in networks of noncooperative two
 </a>
 </div>
 </div>
+
+---
+
+<h3 class="text-3xl font-bold text-center mb-8 mt-12 text-gray-900">Co-authors</h3>
+
+- [Bhargav Nagaraja Bhatt](https://bhargavbh.github.io/)
+- [Christian Ewerhart](https://ewerhart.net/)
+- [Jonas Gehrlein](https://scholar.google.com/citations?user=uq4JZiwAAAAJ&hl=en)
+- [Hans Gersbach](http://www.gersbach.de/)
+- [Pencho Yordanov](https://sites.google.com/view/pencho-yordanov/)
 
 <script data-goatcounter="https://kremenav.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>

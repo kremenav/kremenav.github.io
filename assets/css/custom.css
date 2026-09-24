@@ -8,7 +8,8 @@ body {
   font-family: 'Cyberpunk', sans-serif !important;
 }
 
-.prose p {
+.prose p,
+.prose li {
   font-size: 1.1rem !important;
   font-family: 'Cyberpunk', sans-serif !important;
   color: var(--ink) !important;
@@ -231,6 +232,18 @@ section#about .col-12.col-lg-8 {
 .prose {
   --tw-prose-bold: var(--ink);
   --tw-prose-hr: var(--accent);   /* divider under the Resume button */
+}
+
+/* Inline text links in paragraphs and lists (e.g. supervisors, co-authors): accent, not the theme's slate/primary. */
+.prose p a,
+.prose li a {
+  color: var(--accent) !important;
+  text-decoration-color: var(--accent) !important;
+}
+
+.prose p a:hover,
+.prose li a:hover {
+  color: var(--accent) !important;
 }
 
 .prose strong,
