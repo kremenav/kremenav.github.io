@@ -53,10 +53,13 @@ Resume
 
 <div class="mb-6 p-6 bg-white rounded-xl shadow-sm border border-gray-200 flex flex-col w-full"><h4 class="text-xl font-bold text-gray-900 mt-0 mb-1 leading-none" style="margin-top: 0 !important;">Optimal Dynamic Majority-Quorum Rules: Theory and Evidence</h4>
 <div class="text-sm text-gray-500 mb-3 italic">with Bhargav Nagaraja Bhatt and Jonas Gehrlein, October 2026 </span></div>
-<p class="text-gray-700 mb-4 text-base leading-relaxed">We derive an optimal stopping rule for real-time vote aggregation: it determines when to stop collecting votes and make a majority decision before a deadline. We also provide a tractable approximation and evaluate the rule on Polkadot governance data.</p>
+<p class="text-gray-700 mb-4 text-base leading-relaxed">We derive an optimal stopping rule for real-time vote aggregation: it determines when to stop collecting votes and make a majority decision before a deadline. We provide a tractable approximation and evaluate the rule on Polkadot governance data.</p>
 <div class="flex flex-wrap gap-3">
 <a href="/uploads/BhattGehrleinValkanova2026MQR.pdf" target="_blank" title="Download PDF" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+</a>
+<a href="https://arxiv.org/abs/2610.14391" target="_blank" title="View in ArXiv" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
 </a>
 <a href="/uploads/MajorityQuorumRules_slides.pdf" target="_blank" title="View Slides" class="inline-flex items-center justify-center w-10 h-10 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 icon-accent transition-transform transform hover:scale-110 shadow-sm no-underline">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 13v-1m4 1v-3m4 3V8M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" /></svg>
@@ -72,7 +75,10 @@ Resume
   title={Optimal Dynamic Majority-Quorum Rules: Theory and Evidence},
   author={Bhatt, Bhargav Nagaraja and Gehrlein, Jonas and Valkanova, Kremena},
   year={2026},
-  type = {Working Paper}
+  journal = {arXiv preprint arXiv:2610.14391},
+  doi = {10.48550/arXiv.2610.14391},
+  eprint = {2610.14391},
+  archivePrefix= {arXiv},
 }">
    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
      <path d="M7.17 6A4.17 4.17 0 003 10.17V14a4 4 0 004 4h1a1 1 0 001-1v-4a1 1 0 00-1-1H7a1 1 0 01-1-1v-.83A2.17 2.17 0 018.17 8H9a1 1 0 001-1V7a1 1 0 00-1-1H7.17zM17.17 6A4.17 4.17 0 0013 10.17V14a4 4 0 004 4h1a1 1 0 001-1v-4a1 1 0 00-1-1h-1a1 1 0 01-1-1v-.83A2.17 2.17 0 0118.17 8H19a1 1 0 001-1V7a1 1 0 00-1-1h-1.83z"/>
