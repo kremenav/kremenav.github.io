@@ -1,0 +1,21 @@
+{{ with site.Params.goatcounter }}
+<script data-goatcounter="{{ . }}"
+        async src="//gc.zgo.at/count.js"></script>
+<script>
+  // Track link clicks as GoatCounter events (left click and middle click).
+  function gcTrackClick(e) {
+    if (e.type === 'auxclick' && e.button !== 1) return;
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a || !window.goatcounter || !window.goatcounter.count) return;
+    var href = a.getAttribute('href');
+    if (!href || href.charAt(0) === '#' || href.indexOf('javascript:') === 0) return;
+    window.goatcounter.count({
+      path:  'click: ' + a.href,
+      title: (a.textContent || '').trim().slice(0, 100) || a.href,
+      event: true,
+    });
+  }
+  document.addEventListener('click', gcTrackClick, true);
+  document.addEventListener('auxclick', gcTrackClick, true);
+</script>
+{{ end }}

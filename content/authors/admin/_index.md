@@ -271,8 +271,6 @@ abstract = {This paper studies fictitious play in networks of noncooperative two
 - [Hans Gersbach](http://www.gersbach.de/)
 - [Pencho Yordanov](https://sites.google.com/view/pencho-yordanov/)
 
-<script data-goatcounter="https://kremenav.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 
 
   <script>
